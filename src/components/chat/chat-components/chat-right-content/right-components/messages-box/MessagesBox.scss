@@ -1,0 +1,25 @@
+.messages-box {
+  flex: 1 ;
+  padding: 0px 0px;
+  overflow-y: auto;
+
+    &__custom-message {
+      &--green {
+        .rce-mbox {
+          background-color: rgb(224, 253, 224);
+        }
+        .rce-mbox-right-notch {
+          fill: rgb(224, 253, 224);
+        }
+      }
+    }
+
+    .rce-mbox-text{
+      text-align: left;
+    }
+
+    .rce-mbox-text::after {
+      content: "";
+    }
+
+}

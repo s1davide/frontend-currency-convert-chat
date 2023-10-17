@@ -1,0 +1,20 @@
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    input {
+        margin-top: 15px;
+      border-radius: 5%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    }
+    button{        
+        margin-top: 10px;
+    }
+   
+  }
+}

@@ -1,0 +1,16 @@
+.chat-footer{
+    display: flex;
+    max-width: 100%;
+    padding: 10px;
+    padding-right: 1px;
+
+    background-color: rgb(230, 230, 230);
+     &__input{
+        border-radius: 50%;        
+        min-width: calc( 100% - 50px );
+        textarea{
+           padding-left: 8px;
+           padding-right: 8px;
+        }
+    }
+}
