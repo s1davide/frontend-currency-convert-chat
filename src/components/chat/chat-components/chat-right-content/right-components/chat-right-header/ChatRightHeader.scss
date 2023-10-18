@@ -1,0 +1,22 @@
+.chat-right-header {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+
+  &__container-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;    
+    justify-content: center;
+    padding: 0 8px;
+    label {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    p {
+        font-size: 12px;
+      margin: 0;
+    }
+  }
+}

@@ -22,7 +22,6 @@ const getLastElementIntersectionPercent = (lastElement: Element) => {
 const detectIfNearLatestMessage = async (lastElement: Element) => {
   const lastElementIntersectionPercent =
     await getLastElementIntersectionPercent(lastElement);
-    console.log(lastElementIntersectionPercent);
     
   return lastElementIntersectionPercent > 0;
 };
